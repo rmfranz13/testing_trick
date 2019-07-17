@@ -9,7 +9,8 @@
  *  )
  *****************************************************************************/
 #include "sim_objects/default_trick_sys.sm"
-##include "cannon/include/cannon_analytic.h"
+//##include "~/Desktop/intuitive_machines/Trick_Tutorial/trick_cannonball/trick_sims/SIM_cannon_analytic/models/cannon/include/cannon.h"
+#include "cannon/include/cannon.h"
 
 class CannonSimObject : public Trick::SimObject
 {

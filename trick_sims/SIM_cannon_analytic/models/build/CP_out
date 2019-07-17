@@ -1,0 +1,50 @@
+Output for /usr/local/libexec/trick/configuration_processor version 19.1.dev- at Wed Jul 17 18:18:01 2019
+
+Parsing    S_define
+Warning    S_define
+           Could not find dependency "*(cannon/src/cannon_init.c"
+Warning    S_define
+           Could not find dependency "cannon/src/cannon_analytic.c"
+Warning    S_define
+           Could not find dependency "cannon/src/cannon_shutdown.c"
+Processing S_define
+Processing /usr/include/stdc-predef.h
+Continuing S_define
+Processing /usr/local/share/trick/sim_objects/default_trick_sys.sm
+Processing SysSimObject
+Processing MonteCarloSimObject
+Processing MemoryManagerSimObject
+Processing CheckPointRestartSimObject
+Processing SieSimObject
+Processing CommandLineArgumentsSimObject
+Processing MessageSimObject
+Processing JITSimObject
+Processing InputProcessorSimObject
+Processing ThreadProcessEventSimObject
+Processing EventManagerSimObject
+Processing VariableServerSimObject
+Processing DataRecordDispatcherSimObject
+Processing RTSyncSimObject
+Processing FrameLogSimObject
+Processing MasterSlaveSimObject
+Processing InstrumentationSimObject
+Processing DMTCPSimObject
+Processing InjectorExecSimObject
+Processing InjectorSimObject
+Processing ZeroconfSimObject
+Processing UnitTestSimObject
+Processing UdUnitsSimObject
+Continuing S_define
+Processing cannon/include/cannon.h
+Syntax error in cannon/include/cannon.h
+Last 10 lines read:
+typedef struct {
+
+    double vel0[2] ;
+    double pos0[2] ;
+    double init_speed ;
+    double init_angle ;
+
+    double acc[2] ;
+    double vel[2] ;
+    double pos[2] ;

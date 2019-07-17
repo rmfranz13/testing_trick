@@ -2,7 +2,7 @@
  * PURPOSE: (Print the final cannonball state)
  *****************************************************************************/
 #include <stdio.h>
-#include "../include cannon.h"
+#include "../include/cannon.h"
 #include "trick/exec_proto.h"
 
 int cannon_shutdown(CANNON* C)
